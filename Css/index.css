@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+/* header css */
+
+#header {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Img/background-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+    #header .scroll-btn {
+        bottom: 30px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 2px solid #fff;
+        padding: 10px 10px 20px;
+        border-radius: 30px;
+    }
+
+        #header .scroll-btn .scroll-bar {
+            animation: mover 1s infinite alternate;
+        }
+            #header .scroll-btn .scroll-bar span {
+                border: 2px solid #fff;
+                font-size: 10px;
+                border-radius: 30px;
+            }
+
+@keyframes mover {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}
+
+
+
+.user-box {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+}
+    .user-box img {
+        border-radius: 50%;
+        width: 250px;
+        border: 2px solid #6caed5;
+    }
+
+    .user-box h1 {
+        font-weight: bold;
+        margin: 10px;
+    }
+
+
+
+/* ABOUT */
+
+
+
+.nav-bar {
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+    .nav-bar .about {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+        .nav-bar .about .profile-img {
+            height: 400px;
+        }
+
+    
+
+    .nav-bar .navbar {
+        background-color: #000;
+    }
+        .nav-bar .navbar .fa-bars {
+            font-size: 35px;
+            color: #fff;
+        }
+
+        .nav-bar .navbar .navbar-brand img {
+            height: 50px;
+        }
+
+
+        .nav-bar .navbar .navbar-toggler {
+            outline: none !important;
+        }
+
+        .nav-bar .navbar .navbar-nav {
+            float: right;
+            text-align: right;
+        }
+
+            .nav-bar .navbar .navbar-nav .nav-link {
+                color: #fff !important;
+            }
