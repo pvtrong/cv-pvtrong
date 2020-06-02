@@ -28,6 +28,7 @@ body {
         #header .scroll-btn .scroll-bar {
             animation: mover 1s infinite alternate;
         }
+
             #header .scroll-btn .scroll-bar span {
                 border: 2px solid #fff;
                 font-size: 10px;
@@ -38,6 +39,7 @@ body {
     0% {
         transform: translateX(0);
     }
+
     100% {
         transform: translateY(10px);
     }
@@ -52,6 +54,7 @@ body {
     position: absolute;
     color: #fff;
 }
+
     .user-box img {
         border-radius: 50%;
         width: 250px;
@@ -74,6 +77,7 @@ body {
     position: sticky;
     z-index: 2;
 }
+
     .nav-bar .about {
         padding-top: 100px;
         padding-bottom: 50px;
@@ -83,11 +87,12 @@ body {
             height: 400px;
         }
 
-    
+
 
     .nav-bar .navbar {
         background-color: #000;
     }
+
         .nav-bar .navbar .fa-bars {
             font-size: 35px;
             color: #fff;
@@ -110,3 +115,131 @@ body {
             .nav-bar .navbar .navbar-nav .nav-link {
                 color: #fff !important;
             }
+
+.about .skills-bar {
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+    .about .skills-bar .progress {
+        border-radius: 16px !important;
+        margin-bottom: 10px;
+    }
+
+        .about .skills-bar .progress .progress-bar {
+            border-radius: 16px;
+            background-color: #000 !important;
+        }
+
+
+/*---------Resume----------*/
+.resume {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: #f9f9f9;
+}
+
+    .resume h3 {
+        margin-bottom: 50px;
+    }
+
+    .resume .timeline {
+        list-style-type: none;
+        position: relative;
+    }
+
+        .resume .timeline::before {
+            content: '';
+            background: #555;
+            display: inline-block;
+            position: absolute;
+            left: 29px;
+            width: 2px;
+            height: 100%;
+            z-index: 1;
+        }
+
+        .resume .timeline li {
+            margin: 20px 0px 20px 20px;
+            background: #fff;
+        }
+
+            .resume .timeline li h4 {
+                background-color: #000;
+                padding: 5px 0 5px 20px;
+                font-size: 15px;
+                color: #fff;
+            }
+
+                .resume .timeline li h4 span {
+                    font-weight: bold;
+                    color: #ccc;
+                }
+
+            .resume .timeline li::before {
+                content: '';
+                background: #fff;
+                display: inline-block;
+                position: absolute;
+                border-radius: 50%;
+                border: 3px solid #000;
+                left: 20px;
+                width: 20px;
+                height: 20px;
+                z-index: 1;
+            }
+
+/*----------contact--------*/
+.contact {
+    padding-top: 50px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../Img/background-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+    .contact .row {
+        padding: 30px 0;
+        font-size: 22px;
+    }
+
+        .contact .row .col-md-4 .fa {
+            padding: 10px;
+            font-size: 40px;
+        }
+
+        .contact .row .col-md-4 a {
+            color: #fff;
+        }
+
+    .contact .btn {
+        padding: 10px 25px 10px 25px;
+        margin: 5px;
+        border-radius: 30px;
+        border: 2px solid #fff;
+        background: transparent;
+    }
+
+        .contact .btn:focus {
+            box-shadow: none !important;
+        }
+
+        .contact .btn:hover {
+            border: 2px solid #000 !important;
+            background: #000 !important;
+            transition: 0.6s;
+        }
+
+        .contact .btn .fa {
+            margin-right: 10px;
+
+        }
+
+        .footer{
+            background: #000;
+            height: 50px;
+            margin-top: 50px;
+            color: #fff;
+            padding-top: 
+        }
